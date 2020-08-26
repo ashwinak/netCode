@@ -1,7 +1,9 @@
 /*
 
 The script uses existing JTIMON collector(https://github.com/Juniper/jtimon) binary and enables always-on collector mode 
-i.e when IP table counter for the TCP session does not increment every 60s, then the PID is restarted. This enables the script to re-connect post router reboots.
+i.e when IP table counter for the TCP session does not increment every 60s, then the PID is restarted. This enables the script to re-connect telemetry connection on
+router reboots.
+
 172-master-snmpfree.json is the sensor profile in json format.
 
 {
