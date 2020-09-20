@@ -4,7 +4,7 @@
 Created on Sat Feb 23 00:51:38 2019
 @author: ashwinak
 
-The code below takes an offline CSV file as input with keys,value store and writes it to influxDB which will be later consumed by grafana for plotting graphs 
+Objective: The code below takes an offline CSV file as input with keys,value store and writes it to influxDB which will be later consumed by grafana for plotting graphs 
 for router interface statistics. This code can be expanded to take live data from a router via streaming telemetry and plot graphs using grafana.
 
 """
