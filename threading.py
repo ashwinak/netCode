@@ -26,9 +26,9 @@ def target_function(router):
     print(output.decode())
     ssh_client.close()
 
-router1 = {'server_ip': 'localhost', 'server_port': '22', 'user':'ashwinak', 'passwd':'junos.15', 'config':'ospf.txt'}
-router2 = {'server_ip': 'localhost', 'server_port': '22', 'user': 'ashwinak', 'passwd': 'junos.15', 'config':'eigrp.txt'}
-router3 = {'server_ip': 'localhost', 'server_port': '22', 'user': 'ashwinak', 'passwd': 'junos.15', 'config':'router3.txt'}
+router1 = {'server_ip': 'localhost', 'server_port': '22', 'user':'aa', 'passwd':'blah', 'config':'ospf.txt'}
+router2 = {'server_ip': 'localhost', 'server_port': '22', 'user': 'aa', 'passwd': 'blah', 'config':'eigrp.txt'}
+router3 = {'server_ip': 'localhost', 'server_port': '22', 'user': 'aa', 'passwd': 'blah', 'config':'router3.txt'}
 
 devices = [router1, router2, router3]
 my_threads = list()
